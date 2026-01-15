@@ -1,7 +1,7 @@
 # GitHub Issue-to-PR Workflow
 
-**Location:** Arc Raiders Trust Platform  
-**Status:** COMPLETE WORKFLOW REFERENCE  
+**Location:** Arc Raiders Trust Platform
+**Status:** COMPLETE WORKFLOW REFERENCE
 **Last Updated:** 2026-01-14
 
 ## Complete Workflow for Issue Resolution

@@ -5,9 +5,9 @@
 ### Issue States & Labels
 
 ```
-[Available] 
+[Available]
     ↓ (gh issue edit --add-assignee @me --add-label in-progress)
-[In Progress] 
+[In Progress]
     ↓ (if blocked: gh issue edit --remove-label in-progress --add-label blocked)
 [Blocked] ↔ (unblock, then remove blocked label and add in-progress)
 [In Progress]

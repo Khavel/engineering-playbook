@@ -28,10 +28,10 @@ public class AdminController : ControllerBase
     {
         // 1. Build base query with filters
         var query = _db.Users.AsQueryable();
-        
+
         if (!string.IsNullOrWhiteSpace(search))
             query = query.Where(u => u.Email.Contains(search));
-        
+
         if (!string.IsNullOrWhiteSpace(status))
             query = status.ToLower() switch {
                 "active" => query.Where(u => u.TrustLevel >= 1),
