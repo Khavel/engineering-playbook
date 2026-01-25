@@ -29,8 +29,8 @@ Embed agent optimization guidance directly into project instruction files (`.git
 
 ```
 ❌ "Add styling to the form"
-✅ "Add FormInput styling: use var(--input-bg) like InputField.tsx, 
-    create CSS Module for :focus/:error states, 
+✅ "Add FormInput styling: use var(--input-bg) like InputField.tsx,
+    create CSS Module for :focus/:error states,
     test in dark mode, add to FormInput.test.tsx"
 ```
 

@@ -42,13 +42,13 @@ export function useEntranceAnimation(
     } else if (shouldRender) {
       // Trigger exit animation
       setAnimationClass(ANIMATION_CLASS.SCALE_OUT);
-      
+
       // Delay unmount until animation completes
       const timer = setTimeout(() => {
         setShouldRender(false);
         setAnimationClass('');
       }, duration);
-      
+
       return () => clearTimeout(timer);
     }
   }, [isVisible, shouldRender, duration]);

@@ -21,12 +21,12 @@ Pattern for theme-aware styling with CSS variables, supporting dark mode by defa
   --border: #2a2a2a;
   --foreground: #fafafa;
   --foreground-muted: #a0a0a0;
-  
+
   /* Semantic colors */
   --color-primary: #22c55e;
   --color-error: #ef4444;
   --color-warning: #eab308;
-  
+
   /* Component tokens */
   --card-bg: #1a1a1a;
   --input-bg: #1a1a1a;
@@ -41,7 +41,7 @@ Pattern for theme-aware styling with CSS variables, supporting dark mode by defa
   --border: #e2e8f0;
   --foreground: #0f172a;
   --foreground-muted: #475569;
-  
+
   --card-bg: #ffffff;
   --input-bg: #ffffff;
   --button-bg: #f1f5f9;
@@ -69,9 +69,9 @@ Pattern for theme-aware styling with CSS variables, supporting dark mode by defa
 <div className="bg-background text-foreground">
 
 // Tailwind for layout, variables for colors
-<div className="p-4 md:p-6 rounded-lg" style={{ 
+<div className="p-4 md:p-6 rounded-lg" style={{
   backgroundColor: 'var(--surface)',
-  borderColor: 'var(--border)' 
+  borderColor: 'var(--border)'
 }}>
 ```
 
@@ -100,7 +100,7 @@ document.documentElement.classList.remove('light')
 ```
 
 - [ ] Component renders in dark mode (default)
-- [ ] Component renders in light mode  
+- [ ] Component renders in light mode
 - [ ] Text contrast ≥ 4.5:1 (WCAG AA)
 - [ ] No hard-coded colors visible
 - [ ] Hover/focus states work in both modes
