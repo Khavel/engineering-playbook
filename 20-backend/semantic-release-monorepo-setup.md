@@ -151,7 +151,7 @@ jobs:
       - run: dotnet tool install -g dotnet-setversion
       - run: npm ci
       - run: npx commitlint --from=${{ github.event.before || 'HEAD~1' }} --to=HEAD
-      
+
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
